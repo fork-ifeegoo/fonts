@@ -1,10 +1,10 @@
-name: "Mplus 2"
-designer: "MPlus Fonts"
+name: "M PLUS 2"
+designer: "Coji Morishita"
 license: "OFL"
 category: "SANS_SERIF"
-date_added: "2021-05-24"
+date_added: "2021-06-15"
 fonts {
-  name: "Mplus 2"
+  name: "M PLUS 2"
   style: "normal"
   weight: 400
   filename: "Mplus2[wght].ttf"
@@ -12,6 +12,8 @@ fonts {
   full_name: "Mplus 2 Thin"
   copyright: "Copyright 2021 The M+ FONTS Project Authors (https://github.com/coz-m/MPLUS_FONTS)"
 }
+subsets: "chinese-simplified"
+subsets: "chinese-traditional"
 subsets: "japanese"
 subsets: "latin"
 subsets: "latin-ext"
@@ -21,4 +23,8 @@ axes {
   tag: "wght"
   min_value: 100.0
   max_value: 900.0
+}
+source {
+  repository_url: "https://github.com/coz-m/MPLUS_FONTS.git"
+  commit: "8ef61dcea729781209fe08aedbd4e3cd23695469"
 }

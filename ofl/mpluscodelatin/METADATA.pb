@@ -1,10 +1,10 @@
-name: "Mplus Code Latin"
-designer: "MPlus Fonts"
+name: "M PLUS Code Latin"
+designer: "Coji Morishita"
 license: "OFL"
 category: "SANS_SERIF"
-date_added: "2021-05-24"
+date_added: "2021-06-15"
 fonts {
-  name: "Mplus Code Latin"
+  name: "M PLUS Code Latin"
   style: "normal"
   weight: 400
   filename: "MplusCodeLatin[wdth,wght].ttf"
@@ -25,4 +25,8 @@ axes {
   tag: "wght"
   min_value: 100.0
   max_value: 700.0
+}
+source {
+  repository_url: "https://github.com/coz-m/MPLUS_FONTS.git"
+  commit: "8ef61dcea729781209fe08aedbd4e3cd23695469"
 }
